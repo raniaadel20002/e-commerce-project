@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Luxury Watch",
+        "category": "Accessories",
+        "price": 250,
+        "rating": 5,
+        "description": "Elegant watch with premium leather strap.",
+        "image": "https://via.placeholder.com/300x400"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone Pro",
+        "category": "Electronics",
+        "price": 1200,
+        "rating": 4,
+        "description": "High-performance smartphone with stunning design.",
+        "image": "https://via.placeholder.com/300x400"
+    },
+    {
+        "id": 3,
+        "name": "Designer Handbag",
+        "category": "Fashion",
+        "price": 350,
+        "rating": 5,
+        "description": "Luxurious handbag with a modern aesthetic.",
+        "image": "https://via.placeholder.com/300x400"
+    }
+]

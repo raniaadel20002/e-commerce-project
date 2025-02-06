@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart">
+        <div class="top-cart">
+            <h3>Cart Item :<span class="Count_Item_cart">0</span></h3>
+            <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+        <div class="item_in_cart" id="cart_items">
+            <div class="item_cart">
+                <img src="img/07-300x300.webp">
+                <div class="content">
+                    <h4>bjdncnjks jncsmuchx</h4>
+                    <p class="price_cart">$80</p>
+                    <div class="quantity_control">
+                        <button class="decrease_quantity">-</button>
+                        <span class="quantity text-warning">3</span>
+                        <button class="Increase_quantity">+</button>
+                    </div>
+                </div>
+                <button class="delete_item"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+            <div class="item_cart">
+                <img src="img/5-300x300.webp">
+                <div class="content">
+                    <h4>bjdkncnjks jnclmuchx</h4>
+                    <p class="price_cart">$80</p>
+                    <div class="quantity_control">
+                        <button class="decrease_quantity">-</button>
+                        <span class="quantity text-warning">3</span>
+                        <button class="Increase_quantity">+</button>
+                    </div>
+                </div>
+                <button class="delete_item"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+            
+        </div>    
+        <div class="bottom_cart">
+            <div class="total">
+                <p>subtotal</p>
+                <p class="price_cart_total text-warning">$0</p>
+            </div>
+            <div class="button_cart">
+                <a href="#" class="btn-cart btn bg-warning text-light">Check Out</a>
+                <span onclick="open_close_cart()" class="btn btn_cart trans_bg border-warning text-dark">Shop More</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

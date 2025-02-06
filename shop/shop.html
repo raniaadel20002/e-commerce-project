@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container py-4">
+        <!-- Filter and View Controls -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <select id="categoryFilter" class="form-select">
+                    <option value="all">All Categories</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Shoes">Shoes</option>
+                </select>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-outline-dark view-btn" data-view="grid2">2 Columns</button>
+                <button class="btn btn-outline-dark view-btn" data-view="grid3">3 Columns</button>
+                <button class="btn btn-outline-dark view-btn" data-view="grid4">4 Columns</button>
+                <button class="btn btn-outline-dark view-btn" data-view="list">List View</button>
+            </div>
+        </div>
+
+        <!-- Products Container -->
+        <div id="productContainer" class="row gx-3 gy-4"></div>
+    </main>
+
+    <!-- Checkout Button -->
+    <a href="checkout.html" class="btn btn-success position-fixed bottom-0 end-0 m-4">Checkout</a>
+
+    <script src="main.js"></script>
+</body>
+</html>
